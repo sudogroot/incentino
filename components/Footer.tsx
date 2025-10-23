@@ -17,33 +17,29 @@ export default function Footer() {
                 className={styles.footerLogo}
               />
             </div>
-            <p>Building innovative incentive solutions with cutting-edge technology. We work alongside businesses to create measurable results and sustainable growth.</p>
+            <p>Your technical co-founder for startup success. We empower founders with production-ready development and DevOps expertise to ship quality products fast.</p>
           </div>
           <div className={styles.footerSection}>
-            <h4>Product</h4>
+            <h4>Services</h4>
             <ul className={styles.footerLinks}>
-              <li><Link href="/#services">Features</Link></li>
+              <li><Link href="/#services">What We Do</Link></li>
               <li><Link href="/#how-it-works">How It Works</Link></li>
-              <li><Link href="#">Pricing</Link></li>
-              <li><Link href="#">Case Studies</Link></li>
+              <li><Link href="/showcase">Showcase</Link></li>
             </ul>
           </div>
           <div className={styles.footerSection}>
             <h4>Company</h4>
             <ul className={styles.footerLinks}>
-              <li><Link href="/#about">About Us</Link></li>
-              <li><Link href="#">Careers</Link></li>
-              <li><Link href="#">Blog</Link></li>
-              <li><Link href="#">Press</Link></li>
+              <li><Link href="/about">About Us</Link></li>
+              <li><Link href="/blog">Blog</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
           <div className={styles.footerSection}>
-            <h4>Support</h4>
+            <h4>Connect</h4>
             <ul className={styles.footerLinks}>
-              <li><Link href="#">Help Center</Link></li>
-              <li><Link href="/#contact">Contact Us</Link></li>
-              <li><Link href="#">Privacy Policy</Link></li>
-              <li><Link href="#">Terms of Service</Link></li>
+              <li><a href="mailto:hello@incentino.com">Email Us</a></li>
+              <li><Link href="/#contact">Get Started</Link></li>
             </ul>
           </div>
         </div>
