@@ -26,12 +26,12 @@ export default function Home() {
               We partner with businesses to design and implement intelligent incentive solutions that empower teams, engage customers, and accelerate sustainable growth.
             </p>
             <div className={styles.heroCtaContainer}>
-              <Link href="/contact" className={styles.heroCta}>
-                Get in Touch
+              <Link href="#contact" className={styles.heroCta}>
+                Get Started
                 <span>→</span>
               </Link>
-              <Link href="/showcase" className={styles.heroCtaSecondary}>
-                View Showcase
+              <Link href="#services" className={styles.heroCtaSecondary}>
+                Learn More
               </Link>
             </div>
           </div>
@@ -160,16 +160,16 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className={styles.ctaSection} id="cta">
+      <section className={styles.ctaSection} id="contact">
         <div className={styles.ctaContent}>
           <h2>Ready to Transform Your Business?</h2>
           <p>
             Join thousands of companies working with incentino to power their growth. Start your free trial today and see the results for yourself.
           </p>
-          <Link href="/contact" className={styles.ctaButton}>
+          <a href="mailto:hello@incentino.com" className={styles.ctaButton}>
             Start Free Trial
             <span>→</span>
-          </Link>
+          </a>
         </div>
       </section>
     </Layout>

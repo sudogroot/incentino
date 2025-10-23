@@ -21,10 +21,10 @@ export default function Header() {
           />
         </Link>
         <div className={styles.navLinks}>
-          <Link href="/about">About</Link>
-          <Link href="/showcase">Showcase</Link>
+          <Link href="#services">Features</Link>
+          <Link href="#how-it-works">How It Works</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="/contact" className={styles.ctaBtn}>Contact Us</Link>
+          <Link href="#contact" className={styles.ctaBtn}>Get Started</Link>
         </div>
         <button
           className={styles.mobileMenuToggle}
@@ -37,10 +37,10 @@ export default function Header() {
       </div>
       {mobileMenuOpen && (
         <div className={styles.mobileMenu}>
-          <Link href="/about" onClick={() => setMobileMenuOpen(false)}>About</Link>
-          <Link href="/showcase" onClick={() => setMobileMenuOpen(false)}>Showcase</Link>
+          <Link href="#services" onClick={() => setMobileMenuOpen(false)}>Features</Link>
+          <Link href="#how-it-works" onClick={() => setMobileMenuOpen(false)}>How It Works</Link>
           <Link href="/blog" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
-          <Link href="/contact" className={styles.ctaBtn} onClick={() => setMobileMenuOpen(false)}>Contact Us</Link>
+          <Link href="#contact" className={styles.ctaBtn} onClick={() => setMobileMenuOpen(false)}>Get Started</Link>
         </div>
       )}
     </nav>
