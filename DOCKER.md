@@ -73,9 +73,39 @@ docker run -d -p 8080:3333 --name incentino incentino-ssg
 The nginx configuration (`nginx.conf`) includes:
 - Gzip compression for better performance
 - Security headers
-- Static asset caching (1 year)
+- Smart caching strategy:
+  - HTML files: No cache (always fetch fresh)
+  - Next.js hashed assets: 1 year cache (immutable)
+  - Other static assets: 7 days cache
+  - CSS/JS files: 1 hour cache
 - Custom error pages
 - Support for Next.js trailing slash URLs
+
+### Cache Busting and Fresh Deployments
+
+To ensure your deployment serves fresh content without browser cache issues:
+
+**Option 1: Use the deployment script (Recommended)**
+```bash
+./deploy.sh
+```
+
+**Option 2: Manual Docker build with no cache**
+```bash
+# Stop old containers
+docker-compose down
+
+# Build without cache
+docker build --no-cache -t incentino:latest .
+
+# Start fresh container
+docker-compose up -d
+```
+
+**For Dockploy deployments:**
+1. Push your changes to the git repository
+2. In Dockploy dashboard, trigger a rebuild
+3. Dockploy will automatically build without cache if you enable "Clear build cache" option
 
 ## Production Deployment
 
