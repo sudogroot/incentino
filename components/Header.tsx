@@ -21,19 +21,28 @@ export default function Header() {
           />
         </Link>
         <div className={styles.navLinks}>
-          <Link href="/#features">Features</Link>
-          <Link href="/#how-it-works">How It Works</Link>
+          <Link href="/about">About</Link>
+          <Link href="/showcase">Showcase</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="/#about">About</Link>
-          <Link href="/#contact" className={styles.ctaBtn}>Get Started</Link>
+          <Link href="/contact" className={styles.ctaBtn}>Contact Us</Link>
         </div>
         <button
           className={styles.mobileMenuToggle}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle menu"
+          aria-expanded={mobileMenuOpen}
         >
-          ☰
+          {mobileMenuOpen ? '✕' : '☰'}
         </button>
       </div>
+      {mobileMenuOpen && (
+        <div className={styles.mobileMenu}>
+          <Link href="/about" onClick={() => setMobileMenuOpen(false)}>About</Link>
+          <Link href="/showcase" onClick={() => setMobileMenuOpen(false)}>Showcase</Link>
+          <Link href="/blog" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
+          <Link href="/contact" className={styles.ctaBtn} onClick={() => setMobileMenuOpen(false)}>Contact Us</Link>
+        </div>
+      )}
     </nav>
   )
 }
