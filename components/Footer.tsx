@@ -8,13 +8,15 @@ export default function Footer() {
       <div className={styles.footerContent}>
         <div className={styles.footerGrid}>
           <div className={styles.footerBrand}>
-            <Image
-              src="/incentino. (1).svg"
-              alt="incentino"
-              width={40}
-              height={40}
-              className={styles.footerLogo}
-            />
+            <div className={styles.logoContainer}>
+              <Image
+                src="/incentino. (1).svg"
+                alt="incentino"
+                width={40}
+                height={40}
+                className={styles.footerLogo}
+              />
+            </div>
             <p>Building the future of incentive solutions with cutting-edge technology and innovative thinking.</p>
           </div>
           <div className={styles.footerSection}>
