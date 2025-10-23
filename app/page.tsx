@@ -4,8 +4,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'incentino - Your Partner in Smart Incentive Solutions',
-  description: 'We partner with businesses to design and implement intelligent incentive solutions that empower teams, engage customers, and accelerate sustainable growth.',
+  title: 'incentino - Your Technical Co-Founder | Dev & DevOps for Startups',
+  description: 'Ship quality products fast without breaking the bank. We are your dedicated tech partner, delivering production-ready solutions that get startups to market quickly while building for scale.',
 }
 
 export default function Home() {
@@ -19,11 +19,11 @@ export default function Home() {
           <div className={styles.heroContent}>
             <div className={styles.heroBadge}>
               <span>✨</span>
-              <span>Built in Collaboration</span>
+              <span>Your Technical Co-Founder</span>
             </div>
-            <h1>Smart Incentive Solutions That Drive Real Results</h1>
+            <h1>Ship Quality Products Fast, Without Breaking the Bank</h1>
             <p className={styles.heroDescription}>
-              We partner with businesses to design and implement intelligent incentive solutions that empower teams, engage customers, and accelerate sustainable growth.
+              We understand startup reality: limited runway, pressure to launch, and the need for enterprise-grade quality. As your dedicated tech partner, we deliver production-ready solutions that get you to market quickly while building for scale.
             </p>
             <div className={styles.heroCtaContainer}>
               <Link href="#contact" className={styles.heroCta}>
@@ -41,7 +41,7 @@ export default function Home() {
       {/* Trust Section */}
       <section className={styles.trustSection}>
         <div className={styles.container}>
-          <p className={styles.trustText}>Trusted by industry leaders</p>
+          <p className={styles.trustText}>Empowering ambitious startups to scale</p>
           <div className={styles.logoGrid}>
             <div className={styles.logoPlaceholder}>Your Logo</div>
             <div className={styles.logoPlaceholder}>Your Logo</div>
@@ -55,42 +55,42 @@ export default function Home() {
       <section className={styles.features} id="services">
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <div className={styles.sectionLabel}>Features</div>
-            <h2 className={styles.sectionTitle}>Everything You Need to Succeed</h2>
+            <div className={styles.sectionLabel}>How We Help</div>
+            <h2 className={styles.sectionTitle}>We Solve the Challenges That Slow You Down</h2>
             <p className={styles.sectionDescription}>
-              A comprehensive platform to create, manage, and optimize incentive programs that deliver measurable results for your business.
+              From idea to launch, we provide the technical expertise startups need to move fast and build right.
             </p>
           </div>
           <div className={styles.featuresGrid}>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🎯</div>
-              <h3>Smart Targeting</h3>
-              <p>Target the right people at the right time with intelligent segmentation and personalized incentive strategies.</p>
+              <div className={styles.featureIcon}>🚀</div>
+              <h3>Rapid Development</h3>
+              <p>No more endless hiring or onboarding delays. We start building immediately with proven tech stacks and battle-tested architecture patterns.</p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>📊</div>
-              <h3>Real-Time Analytics</h3>
-              <p>Track performance, measure ROI, and make data-driven decisions with comprehensive analytics dashboards.</p>
+              <div className={styles.featureIcon}>💎</div>
+              <h3>Production-Grade Quality</h3>
+              <p>Ship with confidence. Every line of code follows best practices, includes proper testing, and is built to scale as you grow.</p>
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureIcon}>⚡</div>
-              <h3>Instant Deployment</h3>
-              <p>Launch campaigns in minutes with our intuitive platform. No technical expertise required.</p>
+              <h3>Modern DevOps</h3>
+              <p>Automated deployments, monitoring, and infrastructure as code. Focus on product, not server management.</p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🔒</div>
-              <h3>Enterprise Security</h3>
-              <p>Bank-level security and compliance standards ensure your data and transactions are always protected.</p>
+              <div className={styles.featureIcon}>💰</div>
+              <h3>Startup-Friendly Pricing</h3>
+              <p>Flexible engagement models that respect your runway. Get senior-level expertise without the senior-level burn rate.</p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>🔄</div>
-              <h3>Seamless Integration</h3>
-              <p>Connect with your existing tools and workflows through our robust API and pre-built integrations.</p>
+              <div className={styles.featureIcon}>🎯</div>
+              <h3>Strategic Technical Guidance</h3>
+              <p>Make informed decisions about architecture, tech stack, and scaling strategies. We have been through this journey before.</p>
             </div>
             <div className={styles.featureCard}>
-              <div className={styles.featureIcon}>💡</div>
-              <h3>AI-Powered Insights</h3>
-              <p>Leverage machine learning to optimize your programs and predict future performance trends.</p>
+              <div className={styles.featureIcon}>🤝</div>
+              <h3>True Partnership</h3>
+              <p>We invest in your success. Your wins are our wins. We are here for the long term, not just the next sprint.</p>
             </div>
           </div>
         </div>
@@ -100,24 +100,24 @@ export default function Home() {
       <section className={styles.statsSection}>
         <div className={`${styles.container} ${styles.statsContainer}`}>
           <div className={styles.sectionHeader}>
-            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Trusted by Industry Leaders</h2>
+            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Your Tech Partner for Startup Growth</h2>
           </div>
           <div className={styles.statsGrid}>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>10K+</span>
-              <span className={styles.statLabel}>Active Users</span>
+              <span className={styles.statNumber}>Development</span>
+              <span className={styles.statLabel}>Full-stack engineering expertise to build your product</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>95%</span>
-              <span className={styles.statLabel}>Customer Satisfaction</span>
+              <span className={styles.statNumber}>DevOps</span>
+              <span className={styles.statLabel}>Scalable infrastructure and deployment automation</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>2.5M+</span>
-              <span className={styles.statLabel}>Incentives Distributed</span>
+              <span className={styles.statNumber}>Architecture</span>
+              <span className={styles.statLabel}>Strategic technical guidance for sustainable growth</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>45%</span>
-              <span className={styles.statLabel}>Average ROI Increase</span>
+              <span className={styles.statNumber}>Partnership</span>
+              <span className={styles.statLabel}>We grow with you as your dedicated tech team</span>
             </div>
           </div>
         </div>
@@ -128,31 +128,31 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <div className={styles.sectionLabel}>Process</div>
-            <h2 className={styles.sectionTitle}>Our Approach</h2>
+            <h2 className={styles.sectionTitle}>From Kickoff to Launch in Weeks, Not Months</h2>
             <p className={styles.sectionDescription}>
-              A streamlined process in three simple steps. We collaborate closely with you to deliver results in days, not months.
+              A proven partnership model designed for startup speed. We move fast, communicate clearly, and deliver working software from day one.
             </p>
           </div>
           <div className={styles.stepsGrid}>
             <div className={styles.step}>
               <div className={styles.stepNumber}>01</div>
               <div className={styles.stepContent}>
-                <h3>Define Your Strategy</h3>
-                <p>We start by understanding your business objectives. Whether it&apos;s boosting sales, improving retention, or driving engagement, we work with you to develop an incentive strategy aligned with your goals.</p>
+                <h3>Discovery & Alignment</h3>
+                <p>We deep-dive into your vision, market opportunity, and technical requirements. No fluff, just strategic questions that shape the right solution for your unique challenges and timeline.</p>
               </div>
             </div>
             <div className={styles.step}>
               <div className={styles.stepNumber}>02</div>
               <div className={styles.stepContent}>
-                <h3>Design & Deploy</h3>
-                <p>Using our intuitive platform, we help you design and launch your incentive program. Customize rewards, configure rules, and target your audience with precision while maintaining complete control.</p>
+                <h3>Build & Iterate</h3>
+                <p>Weekly deployable increments keep you in the loop. See progress early and often. Adjust priorities as you learn from users. We adapt to your evolving needs without derailing momentum.</p>
               </div>
             </div>
             <div className={styles.step}>
               <div className={styles.stepNumber}>03</div>
               <div className={styles.stepContent}>
-                <h3>Optimize & Scale</h3>
-                <p>Monitor real-time performance, analyze key metrics, and continuously refine your campaigns for maximum impact and ROI.</p>
+                <h3>Launch & Grow</h3>
+                <p>Go live with confidence backed by proper infrastructure, monitoring, and support. As your user base grows, we scale your architecture and optimize performance. Your growth is our roadmap.</p>
               </div>
             </div>
           </div>
@@ -162,12 +162,12 @@ export default function Home() {
       {/* CTA Section */}
       <section className={styles.ctaSection} id="contact">
         <div className={styles.ctaContent}>
-          <h2>Ready to Transform Your Business?</h2>
+          <h2>Ready to Build Something Great?</h2>
           <p>
-            Join thousands of companies working with incentino to power their growth. Start your free trial today and see the results for yourself.
+            Partner with incentino to accelerate your startup&apos;s technical journey. Let&apos;s discuss how we can help bring your vision to life.
           </p>
           <a href="mailto:hello@incentino.com" className={styles.ctaButton}>
-            Start Free Trial
+            Get in Touch
             <span>→</span>
           </a>
         </div>
