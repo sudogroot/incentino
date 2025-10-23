@@ -16,7 +16,7 @@ This guide explains how to deploy the Incentino SSG application using Docker.
 docker-compose up -d
 ```
 
-2. Access the application at `http://localhost:3000`
+2. Access the application at `http://localhost:3333`
 
 3. Stop the container:
 ```bash
@@ -32,10 +32,10 @@ docker build -t incentino-ssg .
 
 2. Run the container:
 ```bash
-docker run -d -p 3000:80 --name incentino incentino-ssg
+docker run -d -p 3333:3333 --name incentino incentino-ssg
 ```
 
-3. Access the application at `http://localhost:3000`
+3. Access the application at `http://localhost:3333`
 
 4. Stop the container:
 ```bash
@@ -54,18 +54,18 @@ The Dockerfile uses a multi-stage build:
 
 ### Port Mapping
 
-By default, the application is mapped to port 3000. To use a different port:
+By default, the application is mapped to port 3333. To use a different port:
 
 **Docker Compose:**
 Edit `docker-compose.yml` and change the port mapping:
 ```yaml
 ports:
-  - "8080:80"  # Maps to port 8080
+  - "8080:3333"  # Maps to port 8080
 ```
 
 **Docker CLI:**
 ```bash
-docker run -d -p 8080:80 --name incentino incentino-ssg
+docker run -d -p 8080:3333 --name incentino incentino-ssg
 ```
 
 ### Nginx Configuration
@@ -103,7 +103,7 @@ docker logs -f incentino
 docker-compose up -d --build
 
 # Docker CLI
-docker build -t incentino-ssg . && docker stop incentino && docker rm incentino && docker run -d -p 3000:80 --name incentino incentino-ssg
+docker build -t incentino-ssg . && docker stop incentino && docker rm incentino && docker run -d -p 3333:3333 --name incentino incentino-ssg
 ```
 
 ## Image Size
