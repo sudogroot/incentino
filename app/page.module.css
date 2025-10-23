@@ -351,7 +351,7 @@
 }
 
 .statNumber {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(135deg, #FFFFFF, var(--secondary));
   -webkit-background-clip: text;
@@ -493,7 +493,24 @@
 /* Responsive */
 @media (max-width: 968px) {
   .heroContainer {
-    padding: 4rem 2rem 3rem;
+    padding: 2.5rem 1.5rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 8vw, 3.5rem);
+    margin-bottom: 1.25rem;
+  }
+
+  .heroDescription {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroBadge {
+    margin-bottom: 1.25rem;
   }
 
   .heroCtaContainer {
@@ -503,6 +520,8 @@
   .heroCta, .heroCtaSecondary {
     width: 100%;
     justify-content: center;
+    padding: 1rem 2rem;
+    font-size: 1rem;
   }
 
   .featuresGrid {
