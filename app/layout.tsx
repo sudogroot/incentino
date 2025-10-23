@@ -3,11 +3,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    default: 'incentino - Transform Your Business with Smart Incentives',
+    default: 'incentino - Expert DevOps & Development for Startups',
     template: '%s | incentino',
   },
-  description: 'Building the future of incentive solutions with cutting-edge technology. Empower your team, delight your customers, and accelerate growth.',
-  keywords: ['incentives', 'business growth', 'rewards', 'analytics', 'enterprise solutions'],
+  description: 'High-quality DevOps operations and development support specifically designed for startups. Robust infrastructure, reliable deployments, expert team.',
+  keywords: ['devops', 'kubernetes', 'docker', 'ci/cd', 'cloud infrastructure', 'startup development', 'aws', 'terraform'],
   authors: [{ name: 'incentino' }],
   creator: 'incentino',
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://incentino.com'),
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: '/',
     siteName: 'incentino',
-    title: 'incentino - Transform Your Business with Smart Incentives',
-    description: 'Building the future of incentive solutions with cutting-edge technology',
+    title: 'incentino - Expert DevOps & Development for Startups',
+    description: 'High-quality DevOps operations and development support for startups',
     images: [
       {
         url: '/incentino. (1).png',
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'incentino - Transform Your Business with Smart Incentives',
-    description: 'Building the future of incentive solutions with cutting-edge technology',
+    title: 'incentino - Expert DevOps & Development for Startups',
+    description: 'High-quality DevOps operations and development support for startups',
     images: ['/incentino. (1).png'],
   },
   robots: {

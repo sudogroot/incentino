@@ -37,7 +37,7 @@
 .heroContainer {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10rem 2rem 8rem;
+  padding: 6rem 2rem 5rem;
   position: relative;
   z-index: 1;
 }
@@ -159,6 +159,48 @@
   bottom: 20%;
   left: 8%;
   animation-delay: 2s;
+}
+
+/* Trust Section */
+.trustSection {
+  padding: 4rem 2rem;
+  background: white;
+  border-bottom: 1px solid var(--border);
+}
+
+.trustText {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logoPlaceholder {
+  padding: 2rem;
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
+.logoPlaceholder:hover {
+  border-color: var(--secondary);
+  opacity: 1;
 }
 
 /* Features Section */
@@ -451,7 +493,7 @@
 /* Responsive */
 @media (max-width: 968px) {
   .heroContainer {
-    padding: 7rem 2rem 5rem;
+    padding: 4rem 2rem 3rem;
   }
 
   .heroCtaContainer {
