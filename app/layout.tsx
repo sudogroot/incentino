@@ -3,10 +3,10 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    default: 'incentino - Expert DevOps & Development for Startups',
+    default: 'incentino - Your Technical Co-Founder & Engineering Team',
     template: '%s | incentino',
   },
-  description: 'High-quality DevOps operations and development support specifically designed for startups. Robust infrastructure, reliable deployments, expert team.',
+  description: 'We don\'t just build your product - we own it like it\'s ours. Full project ownership with startup mentality. DevOps, development, and infrastructure handled by engineers who care.',
   keywords: ['devops', 'kubernetes', 'docker', 'ci/cd', 'cloud infrastructure', 'startup development', 'aws', 'terraform'],
   authors: [{ name: 'incentino' }],
   creator: 'incentino',
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: '/',
     siteName: 'incentino',
-    title: 'incentino - Expert DevOps & Development for Startups',
-    description: 'High-quality DevOps operations and development support for startups',
+    title: 'incentino - Your Technical Co-Founder & Engineering Team',
+    description: 'We don\'t just build your product - we own it like it\'s ours. Full project ownership with startup mentality.',
     images: [
       {
         url: '/incentino. (1).png',
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'incentino - Expert DevOps & Development for Startups',
-    description: 'High-quality DevOps operations and development support for startups',
+    title: 'incentino - Your Technical Co-Founder & Engineering Team',
+    description: 'We don\'t just build your product - we own it like it\'s ours. Full project ownership with startup mentality.',
     images: ['/incentino. (1).png'],
   },
   robots: {

@@ -4,8 +4,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'incentino - Expert DevOps & Development for Startups',
-  description: 'High-quality DevOps operations and development support specifically designed for startups. Robust infrastructure, reliable deployments, expert team.',
+  title: 'incentino - Your Technical Co-Founder & Engineering Team',
+  description: 'We don\'t just build your product - we own it like it\'s ours. Full project ownership with startup mentality. DevOps, development, and infrastructure handled by engineers who care.',
 }
 
 export default function Home() {
@@ -19,11 +19,11 @@ export default function Home() {
           <div className={styles.heroContent}>
             <div className={styles.heroBadge}>
               <span>🚀</span>
-              <span>DevOps & Development for Startups</span>
+              <span>We Own Your Success Like It's Ours</span>
             </div>
-            <h1>Build Fast, Deploy Faster</h1>
+            <h1>Your Team. Your Vision. Our Ownership.</h1>
             <p className={styles.heroDescription}>
-              Expert DevOps operations and development support designed specifically for startups. Robust infrastructure, quality code, reliable deployments.
+              We're not just another dev shop. We embed with your team, take full ownership, and treat your product like our own startup. High-tech expertise meets genuine project ownership.
             </p>
             <div className={styles.heroCtaContainer}>
               <Link href="/contact" className={styles.heroCta}>
@@ -58,7 +58,7 @@ export default function Home() {
             <div className={styles.sectionLabel}>Services</div>
             <h2 className={styles.sectionTitle}>What We Do</h2>
             <p className={styles.sectionDescription}>
-              Comprehensive DevOps and development services tailored for startups that need to move fast without compromising quality.
+              We're not just service providers - we're your technical co-founders. Every project gets the attention and ownership it deserves, as if we're building our own startup alongside you.
             </p>
           </div>
           <div className={styles.featuresGrid}>
@@ -96,28 +96,28 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Values Section */}
       <section className={styles.statsSection}>
         <div className={`${styles.container} ${styles.statsContainer}`}>
           <div className={styles.sectionHeader}>
-            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Built for Speed & Reliability</h2>
+            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Built on Ownership & Excellence</h2>
           </div>
           <div className={styles.statsGrid}>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>24/7</span>
-              <span className={styles.statLabel}>Support Available</span>
+              <span className={styles.statNumber}>🎯</span>
+              <span className={styles.statLabel}>Full Project Ownership</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>99.9%</span>
-              <span className={styles.statLabel}>Uptime SLA</span>
+              <span className={styles.statNumber}>🚀</span>
+              <span className={styles.statLabel}>Startup Mentality</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>Fast</span>
-              <span className={styles.statLabel}>Deployment Times</span>
+              <span className={styles.statNumber}>⚡</span>
+              <span className={styles.statLabel}>Move Fast, Build Right</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>100%</span>
-              <span className={styles.statLabel}>Startup Focused</span>
+              <span className={styles.statNumber}>🤝</span>
+              <span className={styles.statLabel}>True Partnership</span>
             </div>
           </div>
         </div>
@@ -130,29 +130,29 @@ export default function Home() {
             <div className={styles.sectionLabel}>Process</div>
             <h2 className={styles.sectionTitle}>How We Work</h2>
             <p className={styles.sectionDescription}>
-              Simple, transparent process designed to get you up and running quickly.
+              We integrate as your team, not as a vendor. Every decision we make is driven by long-term success and ownership thinking.
             </p>
           </div>
           <div className={styles.stepsGrid}>
             <div className={styles.step}>
               <div className={styles.stepNumber}>01</div>
               <div className={styles.stepContent}>
-                <h3>Discovery Call</h3>
-                <p>We start with understanding your needs, tech stack, and goals. What are your pain points? What do you need to ship?</p>
+                <h3>Embed & Understand</h3>
+                <p>We become part of your team, diving deep into your vision, tech stack, and business goals. Your challenges become our challenges.</p>
               </div>
             </div>
             <div className={styles.step}>
               <div className={styles.stepNumber}>02</div>
               <div className={styles.stepContent}>
-                <h3>Plan & Execute</h3>
-                <p>We create a clear roadmap and get to work. Whether it&apos;s infrastructure, development, or both - we deliver quality fast.</p>
+                <h3>Own & Execute</h3>
+                <p>With full ownership mindset, we architect, build, and deploy solutions as if it&apos;s our own startup. Quality and speed, no compromises.</p>
               </div>
             </div>
             <div className={styles.step}>
               <div className={styles.stepNumber}>03</div>
               <div className={styles.stepContent}>
-                <h3>Monitor & Support</h3>
-                <p>Continuous monitoring, regular updates, and ongoing support. We&apos;re here when you need us.</p>
+                <h3>Evolve & Scale</h3>
+                <p>We stay invested in your success. Continuous improvement, proactive optimization, and scaling strategies that grow with your business.</p>
               </div>
             </div>
           </div>
