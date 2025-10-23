@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  incentino:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: incentino-ssg
+    ports:
+      - "3333:3333"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    labels:
+      - "com.incentino.description=Incentino Static Site"
+      - "com.incentino.version=1.0"
