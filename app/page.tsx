@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'incentino - Your Technical Co-Founder | Dev & DevOps for Startups',
-  description: 'Ship quality products fast without breaking the bank. We are your dedicated tech partner, delivering production-ready solutions that get startups to market quickly while building for scale.',
+  description: 'Quality. Speed. Value. Your dedicated tech partner for production-ready solutions that help startups launch fast and scale smart.',
 }
 
 export default function Home() {
@@ -21,9 +21,9 @@ export default function Home() {
               <span>✨</span>
               <span>Your Technical Co-Founder</span>
             </div>
-            <h1>Ship Quality Products Fast, Without Breaking the Bank</h1>
+            <h1>Quality. Speed. Value.</h1>
             <p className={styles.heroDescription}>
-              We understand startup reality: limited runway, pressure to launch, and the need for enterprise-grade quality. As your dedicated tech partner, we deliver production-ready solutions that get you to market quickly while building for scale.
+              Your dedicated tech partner for production-ready solutions.
             </p>
             <div className={styles.heroCtaContainer}>
               <Link href="#contact" className={styles.heroCta}>
