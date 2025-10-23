@@ -1,0 +1,174 @@
+.blogList {
+  width: 100%;
+}
+
+.searchContainer {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: white;
+  color: var(--text);
+  font-family: 'Niramit', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px rgba(191, 90, 242, 0.1);
+}
+
+.clearButton {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-gray);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.clearButton:hover {
+  background: var(--secondary);
+  color: white;
+}
+
+.resultsCount {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.noResults {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.noResults p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.postsGrid {
+  display: grid;
+  gap: 2rem;
+}
+
+.postCard {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.postCard:hover {
+  border-color: var(--secondary);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(30, 23, 67, 0.1);
+}
+
+.postLink {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.postMeta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+.postDate, .readingTime {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.postTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.postDescription {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.postTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  padding: 0.35rem 0.85rem;
+  background: var(--bg-gray);
+  color: var(--secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.postFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.author {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.readMore {
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: gap 0.3s ease;
+}
+
+.postCard:hover .readMore {
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .postTitle {
+    font-size: 1.5rem;
+  }
+
+  .postLink {
+    padding: 1.5rem;
+  }
+}
