@@ -4,8 +4,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'incentino - Your Technical Co-Founder | Dev & DevOps for Startups',
-  description: 'Quality. Speed. Value. Your dedicated tech partner for production-ready solutions that help startups launch fast and scale smart.',
+  title: 'incentino - Technical Partner for Startups | Launch, Grow & Optimize',
+  description: 'Remove friction and accelerate growth. We help startups launch, iterate, scale, and optimize - with cofounder-level commitment and startup-friendly execution.',
 }
 
 export default function Home() {
@@ -19,11 +19,11 @@ export default function Home() {
           <div className={styles.heroContent}>
             <div className={styles.heroBadge}>
               <span>✨</span>
-              <span>Your Technical Co-Founder</span>
+              <span>Your Technical Partner for Growth</span>
             </div>
-            <h1>Quality. Speed. Value.</h1>
+            <h1>Launch. Grow. Optimize.</h1>
             <p className={styles.heroDescription}>
-              Your dedicated tech partner for production-ready solutions.
+              We remove friction and accelerate your journey - from launch to scale to cost optimization. Cofounder-level commitment, startup-friendly execution.
             </p>
             <div className={styles.heroCtaContainer}>
               <Link href="#contact" className={styles.heroCta}>
@@ -56,9 +56,9 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <div className={styles.sectionLabel}>How We Help</div>
-            <h2 className={styles.sectionTitle}>We Solve the Challenges That Slow You Down</h2>
+            <h2 className={styles.sectionTitle}>We Remove Friction Across Your Entire Journey</h2>
             <p className={styles.sectionDescription}>
-              From idea to launch, we provide the technical expertise startups need to move fast and build right.
+              From launch to growth to optimization, we provide the technical expertise startups need at every stage. We work alongside you, solving what slows you down.
             </p>
           </div>
           <div className={styles.featuresGrid}>
@@ -74,13 +74,13 @@ export default function Home() {
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureIcon}>⚡</div>
-              <h3>Modern DevOps</h3>
-              <p>Automated deployments, monitoring, and infrastructure as code. Focus on product, not server management.</p>
+              <h3>DevOps & Infrastructure</h3>
+              <p>Automated deployments, monitoring, and scalable infrastructure. We optimize your setup to reduce costs and improve performance as you grow.</p>
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureIcon}>💰</div>
-              <h3>Startup-Friendly Pricing</h3>
-              <p>Flexible engagement models that respect your runway. Get senior-level expertise without the senior-level burn rate.</p>
+              <h3>Cost Optimization</h3>
+              <p>We help reduce infrastructure and operational costs without sacrificing performance. From cloud optimization to code efficiency, we keep your burn rate healthy.</p>
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureIcon}>🎯</div>
@@ -100,24 +100,24 @@ export default function Home() {
       <section className={styles.statsSection}>
         <div className={`${styles.container} ${styles.statsContainer}`}>
           <div className={styles.sectionHeader}>
-            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Your Tech Partner for Startup Growth</h2>
+            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Technical Partnership at Every Stage</h2>
           </div>
           <div className={styles.statsGrid}>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>Development</span>
-              <span className={styles.statLabel}>Full-stack engineering expertise to build your product</span>
+              <span className={styles.statNumber}>Launch</span>
+              <span className={styles.statLabel}>Build and ship your product fast with production-ready quality</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>DevOps</span>
-              <span className={styles.statLabel}>Scalable infrastructure and deployment automation</span>
+              <span className={styles.statNumber}>Grow</span>
+              <span className={styles.statLabel}>Iterate quickly, scale infrastructure, and expand functionality</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>Architecture</span>
-              <span className={styles.statLabel}>Strategic technical guidance for sustainable growth</span>
+              <span className={styles.statNumber}>Optimize</span>
+              <span className={styles.statLabel}>Reduce costs, improve performance, and eliminate bottlenecks</span>
             </div>
             <div className={styles.statItem}>
               <span className={styles.statNumber}>Partnership</span>
-              <span className={styles.statLabel}>We grow with you as your dedicated tech team</span>
+              <span className={styles.statLabel}>Cofounder-level commitment through your entire journey</span>
             </div>
           </div>
         </div>
@@ -128,9 +128,9 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <div className={styles.sectionLabel}>Process</div>
-            <h2 className={styles.sectionTitle}>From Kickoff to Launch in Weeks, Not Months</h2>
+            <h2 className={styles.sectionTitle}>Your Long-Term Technical Partner</h2>
             <p className={styles.sectionDescription}>
-              A proven partnership model designed for startup speed. We move fast, communicate clearly, and deliver working software from day one.
+              We work in a cofounder-like style - committed to your success at every stage. Whether you&apos;re launching, iterating, scaling, or optimizing, we adapt to what you need right now.
             </p>
           </div>
           <div className={styles.stepsGrid}>
@@ -151,8 +151,8 @@ export default function Home() {
             <div className={styles.step}>
               <div className={styles.stepNumber}>03</div>
               <div className={styles.stepContent}>
-                <h3>Launch & Grow</h3>
-                <p>Go live with confidence backed by proper infrastructure, monitoring, and support. As your user base grows, we scale your architecture and optimize performance. Your growth is our roadmap.</p>
+                <h3>Scale & Optimize</h3>
+                <p>Launch confidently, then grow sustainably. We continuously optimize your infrastructure, reduce costs, improve performance, and remove bottlenecks. As you scale, we ensure your tech foundation stays solid and efficient.</p>
               </div>
             </div>
           </div>
@@ -162,9 +162,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className={styles.ctaSection} id="contact">
         <div className={styles.ctaContent}>
-          <h2>Ready to Build Something Great?</h2>
+          <h2>Ready to Remove What Slows You Down?</h2>
           <p>
-            Partner with incentino to accelerate your startup&apos;s technical journey. Let&apos;s discuss how we can help bring your vision to life.
+            Whether you&apos;re launching, growing, or optimizing, we work alongside you with cofounder-level commitment. Let&apos;s accelerate your journey.
           </p>
           <a href="mailto:hello@incentino.com" className={styles.ctaButton}>
             Get in Touch
