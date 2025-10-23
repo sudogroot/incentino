@@ -17,15 +17,15 @@ export default function Footer() {
                 className={styles.footerLogo}
               />
             </div>
-            <p>Building the future of incentive solutions with cutting-edge technology and innovative thinking.</p>
+            <p>Building innovative incentive solutions with cutting-edge technology. We work alongside businesses to create measurable results and sustainable growth.</p>
           </div>
           <div className={styles.footerSection}>
             <h4>Product</h4>
             <ul className={styles.footerLinks}>
-              <li><Link href="/#features">Features</Link></li>
+              <li><Link href="/#services">Features</Link></li>
               <li><Link href="/#how-it-works">How It Works</Link></li>
-              <li><Link href="/blog">Blog</Link></li>
               <li><Link href="#">Pricing</Link></li>
+              <li><Link href="#">Case Studies</Link></li>
             </ul>
           </div>
           <div className={styles.footerSection}>
@@ -33,7 +33,7 @@ export default function Footer() {
             <ul className={styles.footerLinks}>
               <li><Link href="/#about">About Us</Link></li>
               <li><Link href="#">Careers</Link></li>
-              <li><Link href="/blog">Blog</Link></li>
+              <li><Link href="#">Blog</Link></li>
               <li><Link href="#">Press</Link></li>
             </ul>
           </div>
