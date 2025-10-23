@@ -5,8 +5,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Showcase - incentino',
-  description: 'Explore our portfolio of DevOps implementations, infrastructure projects, and development work for startups.',
+  title: 'Showcase - Startup Projects',
+  description: 'Real startup projects we\'ve built. See how we help founders ship production-ready products with modern DevOps and development practices.',
 }
 
 export default function Showcase() {

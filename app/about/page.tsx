@@ -4,8 +4,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Us - incentino',
-  description: 'Learn about incentino - expert DevOps and development support for startups. We help you build and deploy with confidence.',
+  title: 'About Us - Your Technical Co-Founder | incentino',
+  description: 'We empower startups with production-ready development and DevOps. As your technical partner, we bring years of experience helping founders ship quality products fast.',
 }
 
 export default function About() {
@@ -18,9 +18,9 @@ export default function About() {
               <span>👋</span>
               <span>About incentino</span>
             </div>
-            <h1>We Help Startups Ship Faster</h1>
+            <h1>Your Technical Co-Founder</h1>
             <p className={styles.heroSubtitle}>
-              Expert DevOps operations and development support designed specifically for startups that need quality without compromise.
+              We partner with startups to build production-ready products that scale. Fast execution, enterprise-grade quality, founder-friendly pricing.
             </p>
           </div>
         </section>
@@ -29,27 +29,30 @@ export default function About() {
           <div className={styles.aboutContainer}>
             <div className={styles.contentGrid}>
               <div className={styles.contentBlock}>
-                <h2>Our Mission</h2>
+                <h2>Why We Exist</h2>
                 <p>
-                  We believe startups deserve enterprise-grade infrastructure and development practices without the enterprise overhead. Our mission is to provide robust, scalable DevOps operations and high-quality development that lets founders focus on building their products.
+                  Startups face an impossible challenge: ship fast, build right, and stay within budget. Most teams make you choose two of three.
                 </p>
                 <p>
-                  Every startup is different, and we tailor our approach to your specific needs, tech stack, and goals.
+                  We solve this by bringing years of startup experience directly to your team. We&apos;ve been through the journey before—we know what works, what breaks, and how to avoid expensive mistakes.
+                </p>
+                <p>
+                  Our mission is simple: empower startups with the technical expertise they need to succeed, without the enterprise overhead.
                 </p>
               </div>
 
               <div className={styles.contentBlock}>
-                <h2>What We Do</h2>
+                <h2>How We Help</h2>
                 <p>
-                  We&apos;re a team of experienced DevOps engineers and developers who&apos;ve been in the trenches. We know what it takes to build reliable systems that scale.
+                  We work alongside founders as true technical partners, bringing expertise in:
                 </p>
                 <ul className={styles.servicesList}>
-                  <li>CI/CD pipeline setup and optimization</li>
+                  <li>Full-stack product development</li>
+                  <li>Scalable architecture design</li>
+                  <li>Modern DevOps and CI/CD</li>
                   <li>Cloud infrastructure (AWS, GCP, Azure)</li>
-                  <li>Container orchestration (Docker, Kubernetes)</li>
-                  <li>Full-stack development</li>
-                  <li>Security and compliance</li>
-                  <li>24/7 monitoring and support</li>
+                  <li>Strategic technical guidance</li>
+                  <li>From MVP to scale</li>
                 </ul>
               </div>
             </div>
@@ -59,29 +62,29 @@ export default function About() {
         <section className={styles.valuesSection}>
           <div className={styles.aboutContainer}>
             <div className={styles.sectionHeader}>
-              <h2>Our Values</h2>
-              <p>The principles that guide everything we do</p>
+              <h2>What Makes Us Different</h2>
+              <p>Partnership over vendors, ownership over tickets</p>
             </div>
             <div className={styles.valuesGrid}>
               <div className={styles.valueCard}>
-                <div className={styles.valueIcon}>⚡</div>
-                <h3>Speed Without Shortcuts</h3>
-                <p>We move fast but never compromise on quality. Rapid deployment doesn&apos;t mean fragile systems.</p>
+                <div className={styles.valueIcon}>🚀</div>
+                <h3>Startup DNA</h3>
+                <p>We understand startup constraints. We&apos;ve built products under tight runways and aggressive timelines. We know what matters.</p>
               </div>
               <div className={styles.valueCard}>
                 <div className={styles.valueIcon}>🎯</div>
-                <h3>Startup Focused</h3>
-                <p>We understand startup constraints and priorities. No enterprise bloat, just what you need to succeed.</p>
+                <h3>Real Ownership</h3>
+                <p>We treat your project like co-founders would. Your success is our success. We think long-term, not just about the next sprint.</p>
               </div>
               <div className={styles.valueCard}>
-                <div className={styles.valueIcon}>🔒</div>
-                <h3>Security First</h3>
-                <p>Best practices baked in from day one. Your users&apos; trust is paramount.</p>
+                <div className={styles.valueIcon}>⚡</div>
+                <h3>Speed + Quality</h3>
+                <p>Fast execution doesn&apos;t mean cutting corners. We use proven patterns and modern practices to ship quickly without technical debt.</p>
               </div>
               <div className={styles.valueCard}>
-                <div className={styles.valueIcon}>🤝</div>
-                <h3>True Partnership</h3>
-                <p>We&apos;re not just vendors - we&apos;re invested in your success and growth.</p>
+                <div className={styles.valueIcon}>💡</div>
+                <h3>Strategic Thinking</h3>
+                <p>We don&apos;t just execute specs. We challenge assumptions, suggest better approaches, and help you make smart technical decisions.</p>
               </div>
             </div>
           </div>
@@ -90,12 +93,12 @@ export default function About() {
         <section className={styles.openSourceSection}>
           <div className={styles.aboutContainer}>
             <div className={styles.contentCentered}>
-              <h2>Open Source Contributors</h2>
+              <h2>Built on Experience</h2>
               <p>
-                We believe in giving back to the community. While we haven&apos;t released our own tools yet, we actively contribute to open source projects and use them to build robust solutions for our clients.
+                Our team has worked with startups across different stages—from pre-seed to Series A. We&apos;ve seen what works when you&apos;re building an MVP, what matters when you hit product-market fit, and how to scale when growth accelerates.
               </p>
               <p>
-                Our commitment to open source means we stay current with the latest tools and best practices in the DevOps and development ecosystem.
+                This isn&apos;t theoretical knowledge. It&apos;s hard-won experience from being in the trenches, solving real problems, and helping founders succeed.
               </p>
             </div>
           </div>
@@ -103,8 +106,8 @@ export default function About() {
 
         <section className={styles.ctaSection}>
           <div className={styles.ctaContent}>
-            <h2>Ready to work together?</h2>
-            <p>Let&apos;s discuss how we can help you build and scale your startup.</p>
+            <h2>Let&apos;s Build Together</h2>
+            <p>Ready to accelerate your startup&apos;s technical journey? Let&apos;s talk about how we can help.</p>
             <Link href="/contact" className={styles.ctaButton}>
               Get in Touch
               <span>→</span>

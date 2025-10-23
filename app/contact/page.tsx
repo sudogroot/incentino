@@ -3,8 +3,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Us - incentino',
-  description: 'Get in touch with incentino. Let\'s discuss your DevOps and development needs.',
+  title: 'Contact Us - Your Technical Co-Founder',
+  description: 'Ready to accelerate your startup\'s technical journey? Get in touch with incentino to discuss your development and DevOps needs.',
 }
 
 export default function Contact() {

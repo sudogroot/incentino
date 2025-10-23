@@ -5,8 +5,8 @@ import styles from './page.module.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Insights, updates, and best practices on incentive solutions, business growth, and technology.',
+  title: 'Blog - Startup Tech Insights',
+  description: 'Technical insights, DevOps best practices, and startup advice from experienced engineers who help founders build and scale products.',
 }
 
 export default function BlogPage() {
@@ -17,8 +17,8 @@ export default function BlogPage() {
       <div className={styles.blogPage}>
         <div className={styles.container}>
           <div className={styles.header}>
-            <h1>Our Blog</h1>
-            <p>Insights, updates, and best practices on incentive solutions, business growth, and technology.</p>
+            <h1>Startup Tech Insights</h1>
+            <p>Technical insights, DevOps best practices, and advice from engineers who help startups build and scale.</p>
           </div>
           <BlogList posts={posts} />
         </div>
