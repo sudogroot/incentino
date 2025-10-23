@@ -41,7 +41,7 @@ export default function Home() {
       {/* Trust Section */}
       <section className={styles.trustSection}>
         <div className={styles.container}>
-          <p className={styles.trustText}>Trusted by industry leaders</p>
+          <p className={styles.trustText}>Empowering ambitious startups to scale</p>
           <div className={styles.logoGrid}>
             <div className={styles.logoPlaceholder}>Your Logo</div>
             <div className={styles.logoPlaceholder}>Your Logo</div>
@@ -100,24 +100,24 @@ export default function Home() {
       <section className={styles.statsSection}>
         <div className={`${styles.container} ${styles.statsContainer}`}>
           <div className={styles.sectionHeader}>
-            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Trusted by Industry Leaders</h2>
+            <h2 className={`${styles.sectionTitle} ${styles.whiteTitle}`}>Your Tech Partner for Startup Growth</h2>
           </div>
           <div className={styles.statsGrid}>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>10K+</span>
-              <span className={styles.statLabel}>Active Users</span>
+              <span className={styles.statNumber}>Development</span>
+              <span className={styles.statLabel}>Full-stack engineering expertise to build your product</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>95%</span>
-              <span className={styles.statLabel}>Customer Satisfaction</span>
+              <span className={styles.statNumber}>DevOps</span>
+              <span className={styles.statLabel}>Scalable infrastructure and deployment automation</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>2.5M+</span>
-              <span className={styles.statLabel}>Incentives Distributed</span>
+              <span className={styles.statNumber}>Architecture</span>
+              <span className={styles.statLabel}>Strategic technical guidance for sustainable growth</span>
             </div>
             <div className={styles.statItem}>
-              <span className={styles.statNumber}>45%</span>
-              <span className={styles.statLabel}>Average ROI Increase</span>
+              <span className={styles.statNumber}>Partnership</span>
+              <span className={styles.statLabel}>We grow with you as your dedicated tech team</span>
             </div>
           </div>
         </div>
@@ -162,12 +162,12 @@ export default function Home() {
       {/* CTA Section */}
       <section className={styles.ctaSection} id="contact">
         <div className={styles.ctaContent}>
-          <h2>Ready to Transform Your Business?</h2>
+          <h2>Ready to Build Something Great?</h2>
           <p>
-            Join thousands of companies working with incentino to power their growth. Start your free trial today and see the results for yourself.
+            Partner with incentino to accelerate your startup&apos;s technical journey. Let&apos;s discuss how we can help bring your vision to life.
           </p>
           <a href="mailto:hello@incentino.com" className={styles.ctaButton}>
-            Start Free Trial
+            Get in Touch
             <span>→</span>
           </a>
         </div>
